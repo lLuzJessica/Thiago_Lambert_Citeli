@@ -1,0 +1,58 @@
+﻿@model CrudAlunosDisciplinas.Models.Aluno
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Aluno</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Idade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Idade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomePai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomePai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeMae)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeMae)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroContrato)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroContrato)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
