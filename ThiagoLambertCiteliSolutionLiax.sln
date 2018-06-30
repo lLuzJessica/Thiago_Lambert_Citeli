@@ -11,6 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - AlunosDisciplina", "2 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAlunosDisciplinas", "CrudAlunosDisciplinas\CrudAlunosDisciplinas.csproj", "{5130A540-BC6B-43E1-8C7A-7F098B7FE470}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4CBA06B3-FEF7-4AC8-9E27-637E89CAE210}"
+	ProjectSection(SolutionItems) = preProject
+		ProvaLinxThiagoCiteli.sql = ProvaLinxThiagoCiteli.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
